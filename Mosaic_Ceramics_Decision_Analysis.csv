@@ -1,0 +1,42 @@
+MOSAIC CERAMICS LTD - DECISION ANALYSIS UNDER UNCERTAINTY
+
+INPUT DATA
+PROBABILITIES
+P(Expand),0.25
+P(Remain Stable),0.35
+P(Decline),0.40
+Total Check,1.00
+
+PAYOFF MATRIX (million UZS)
+Decision/Outcome,Expand,Remain Stable,Decline
+Construct New Plant,45000,-10000,-20000
+Expand Existing Plant,25000,-5000,-7500
+Do Nothing,5000,0,-3000
+
+PART 1: EXPECTED MONETARY VALUE (EMV) ANALYSIS
+Decision,Expand Contribution,Stable Contribution,Decline Contribution,Total EMV
+Construct New Plant,11250,-3500,-8000,-250
+Expand Existing Plant,6250,-1750,-3000,1500
+Do Nothing,1250,0,-1200,50
+
+OPTIMAL DECISION:,Expand Existing Plant
+MAXIMUM EMV:,1500,million UZS
+
+PART 2: SENSITIVITY ANALYSIS - EXPAND EXISTING PLANT PAYOFFS
+Scenario,Base Value,-10% Value,EMV at -10%,+10% Value,EMV at +10%,EMV Change
+Expand Payoff,25000,22500,875,27500,2125,±625
+Stable Payoff,-5000,-5500,1325,-4500,1675,±175
+Decline Payoff,-7500,-8250,1200,-6750,1800,±300
+
+SENSITIVITY RANKING
+1. Most Sensitive:,Expand Payoff,Impact: ±625 million UZS
+2. Second:,Decline Payoff,Impact: ±300 million UZS
+3. Third:,Stable Payoff,Impact: ±175 million UZS
+
+DECISION STABILITY:,Expand Existing Plant remains OPTIMAL across all ±10% variations
+
+KEY RECOMMENDATIONS
+1. PRIMARY STRATEGY:,Expand the existing plant (EMV: 1500 million UZS)
+2. MOST CRITICAL FACTOR:,Expand scenario payoff (highest sensitivity ±625M)
+3. RISK MANAGEMENT:,Focus on monitoring market expansion indicators
+4. DECISION ROBUSTNESS:,Strategy is stable even with 10% estimation errors
